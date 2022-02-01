@@ -26,6 +26,7 @@ public class Zadatak2 {
 				.to("https://www.tutorialrepublic.com/snippets/bootstrap/table-with-add-and-delete-row-feature.php");
 		driver.manage().window().maximize();
 
+		
 		driver.findElement(By.xpath("//*[@class='btn btn-info add-new']")).click();
 
 		Scanner s = new Scanner(System.in);
@@ -38,14 +39,20 @@ public class Zadatak2 {
 		System.out.println("Unesite broj telefona: ");
 		String brTel = s.next();
 
+		int red=4;
+		for(int i=0; i<red; i++) {
+		driver.findElement(By.xpath("//*[@class='btn btn-info add-new']")).click();
+
 		driver.findElement(By.id("name")).sendKeys(imeIprezime);
 		Thread.sleep(1000);
 		driver.findElement(By.id("department")).sendKeys(department);
 		driver.findElement(By.id("phone")).sendKeys(brTel);
+		driver.findElement(By.xpath("//*[@class='table table-bordered']/tbody/tr[" + red +"]/td[4]/a[i]")).click();
 		Thread.sleep(1000);
-
-		driver.findElement(By.xpath("//*[@class='table table-bordered']/tbody/tr[4]/td[4]/a")).click();
-		Thread.sleep(1000);
+		
+		}
+		
+		Thread.sleep(2000);
 		driver.close();
 	}
 
