@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22596" started-at="2022-02-06T19:28:20 CET" finished-at="2022-02-06T19:28:43 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22596" started-at="2022-02-06T19:28:20 CET" finished-at="2022-02-06T19:28:43 CET">
+      <class name="d04_02_2022.Zadatak1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:d04_02_2022.Zadatak1@77f99a05]" name="beforeMethod" is-config="true" duration-ms="5204" started-at="2022-02-06T19:28:20 CET" finished-at="2022-02-06T19:28:25 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="kupujemProdajem()[pri:0, instance:d04_02_2022.Zadatak1@77f99a05]" name="kupujemProdajem" duration-ms="17340" started-at="2022-02-06T19:28:25 CET" finished-at="2022-02-06T19:28:43 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kupujemProdajem -->
+      </class> <!-- d04_02_2022.Zadatak1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
