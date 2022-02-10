@@ -22,21 +22,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class Zadatak1 {
-
-//	public static void main(String[] args) throws InterruptedException {
-//		// 1.Zadatak
-//		Napisti TestNg test koji:
-//	Ucitava stranicu kupujem prodajem.
-//		Ucitajte stranicu (ako treba gasite onaj dijalog sto iskace)
-//		Ukucajte za pretragu iphone
-//		postavice za valutu eure
-//		Sortirajte prema ceni da bude najjefinije prvo
-//		Onda izvrsite proveru sortiranja kao sto je bilo za udemy
-		
+public class Zadatak1{
 
 
-		private WebDriver driver;
+
+
+		WebDriver driver;
 		
 		@BeforeMethod
 		public void beforeMethod() {
